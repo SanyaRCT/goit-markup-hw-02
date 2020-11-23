@@ -3,24 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Изучение основ HTML5 для новичков" />
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Студия</title>
-</head>
+    </head>
 <body>
-    <header>
-            <nav>
-            <a href="/" lang="en"><span>Web</span>Studio</a>
-            <ul>
-                <li><a href="/index.html">Студия</a></li>
-                <li><a href="portfolio.html">Портфолио</a></li>
-                <li><a href="#contacts">Контакты</a></li>
+    <header class="header">
+        <nav class="nav">
+            <a href="/" lang="en" class="logo"><span class="span-logo">Web</span>Studio</a>
+            <ul class="nav-list">
+                <li class="nav-list-item">
+                    <a href="index.html" class="link-nav">Студия</a>
+                </li>
+                <li class="list-nav-item">
+                    <a href="portfolio.html" class="link-nav">Портфолио</a>
+                </li>
+                <li class="list-nav-item">
+                    <a href="#contacts" class="link-nav">Контакты</a>
+                </li>
             </ul>
-            </nav>      
-            <address>
-                <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-               <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-                </ul>
-            </address>
+        </nav>
+        <address class="address">
+            <ul class="list-address">
+                <li class="list-address-item">
+                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="list-address-item">
+                    <a href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
+            </ul>
+        </address>
     </header>
     <main>
         <!--HERO-->
@@ -32,6 +44,7 @@
         </section>
         <!--DIGNITY-->
         <section>
+            <h2 class="visually-hidden">Приоритеты</h2>
             <ul>
                 <li>
                     <h3>Внимание к деталям</h3>
@@ -51,7 +64,7 @@
                 </li>
             </ul>
         </section>
-        <!--PORTFOLIO-->
+        <!--OUR WORK-->
         <section>
             <h2>Чем мы занимаемся</h2>
             <ul>
